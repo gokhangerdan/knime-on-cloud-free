@@ -13,14 +13,20 @@ RUN apt-get install -y python3.6 python3-pip
 
 RUN apt-get install -y default-jre curl
 
+RUN apt-get install -y wget
+
+RUN apt-get install -y unzip
+
 COPY . /app
+
+RUN wget https://github.com/gokhangerdan/knime_workflows/blob/main/knimepy.knwf?raw=true
+
+RUN unzip knimepy.knwf?raw=true -d app
 
 RUN curl -L "$DOWNLOAD_URL" | tar vxz -C $INSTALLATION_DIR
 
 RUN pip3 install -r app/requirements.txt
 
 RUN pip3 install knime
-
-EXPOSE 8081
 
 CMD python3 app/app.py
