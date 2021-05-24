@@ -16,3 +16,9 @@ Create server: ```docker network create web_server --driver bridge```
 Run container: ```docker run -dit --name knimeserver --network web_server knimedockerapi:v1```
 
 Get ip addresses: ```docker inspect webserver```
+
+## Related Repositories:
+
+[knime-workflows](https://github.com/gokhangerdan/knime-workflows)
+
+[knime-rq-module](https://github.com/gokhangerdan/knime-rq-module)
