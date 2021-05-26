@@ -1,0 +1,5 @@
+{
+    "knime_download_url": "https://download.knime.org/analytics-platform/linux/knime_4.1.0.linux.gtk.x86_64.tar.gz",
+    "knime_workflow_download_url": "https://github.com/gokhangerdan/knime_workflows/blob/main/knimepy.knwf?raw=true",
+    "knime_workflow_file_name": "knimepy.knwf?raw=true"
+}
