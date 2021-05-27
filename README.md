@@ -26,3 +26,4 @@ Get ip addresses: ```docker inspect webserver```
 ## TODO:
 
 - Will be merged with knime-rq-module using docker compose
+- Needs optimization on Dockerfiles
