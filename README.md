@@ -22,8 +22,3 @@ Get ip addresses: ```docker inspect webserver```
 [knime-workflows](https://github.com/gokhangerdan/knime-workflows)
 
 [knime-rq-module](https://github.com/gokhangerdan/knime-rq-module)
-
-## TODO:
-
-- Will be merged with knime-rq-module using docker compose
-- Needs optimization on Dockerfiles
